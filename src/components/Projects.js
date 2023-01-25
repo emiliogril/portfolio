@@ -11,10 +11,10 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "hola web",
+      title: "hola webhola",
       description: "Design & Development",
       imgUrl: projImg1,
-      thumbnail: "http://www.infobae.com",
+      URL: "http://www.infobae.com",
     },
     {
       title: "Business Startup",
@@ -152,11 +152,11 @@ export const Projects = () => {
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                       <Row>
                         {
-                          projects1.map((projects1, index) => {
+                          projects1.map((projects, index) => {
                             return (
                               <ProjectCard
                                 key={index}
-                                {...projects1}
+                                {...projects}
                                 />
                             )
                           })
